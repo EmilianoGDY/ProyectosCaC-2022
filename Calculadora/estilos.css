@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/pizarra.jpg);
+}
+
+.principal {
+    margin-top: 300px;
+    margin-bottom: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.display{
+    background-color:darkslateblue;
+    border: solid 10px black;
+    width: 632px;
+    padding: 32px;
+    border-radius: 10px 10px 0 0 ;
+    
+}
+
+.input{
+    border: solid 1px black;
+    padding: 20px;
+    background-color: darkgray;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: space-between;
+    padding: 60px;
+    background-image: linear-gradient(darkblue, gray);
+    border-right: solid 10px black;
+    border-left: solid 10px black;
+    border-bottom: solid 10px black;
+}
+
+
+.botones{
+    margin: 10px;
+    color: white;
+    background-color: black;
+    font-size: large;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow:2px 2px 5px gray;
+    text-align: center;
+}
+
+@keyframes bounce{30%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}}
+
+.botones:hover{
+    background-color:mediumpurple;
+    animation: bounce 1s;
+}
+
+.botones2{
+    margin: 10px;
+    color: white;
+    background-color:cornflowerblue;
+    font-size: large;
+    padding: 7px;
+    border-radius: 10px;
+    grid-row: 5/7;
+    grid-column: 6/7;
+}
+
+.botones2:hover{
+    background-color:mediumpurple;
+    animation: bounce 1s;
+}
