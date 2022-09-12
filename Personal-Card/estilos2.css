@@ -1,0 +1,98 @@
+body{
+    background-color:#494848 ;
+    display: grid;
+    place-items: center;
+}
+
+
+.principal{
+    border: solid 3px white;
+    display:grid;
+    grid-template-rows: auto auto;
+}
+
+.boximg{
+    background-color: blueviolet;
+    background-image: url(img/fondo-version2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    padding: 20px 200px 20px 200px ;
+}
+
+.fotex{
+    border: solid 5px black;
+    border-radius: 300px;
+    box-shadow: 10px 5px 5px black;
+    width: 180px;
+    height: 180px;
+}
+
+.titulo1{
+    font-family:'Silkscreen', cursive;
+    color: lightcoral;
+    font-size: 30px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F;
+
+}
+
+#titulo2{
+    font-family:'Silkscreen', cursive;
+    color: lightcoral;
+    font-size: 30px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F;
+
+}
+
+
+.boxtxt{
+    background-color: #FAFAFA;
+    padding: 60px; 
+    display: grid;
+    place-items: center;
+    justify-content: space-around;
+    background-image: url(img/fondoposta.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+.textocuerpo{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.skillsi{
+    margin: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 0 40px 0 40px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.contact{
+    margin: 20px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+}
