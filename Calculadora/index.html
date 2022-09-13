@@ -10,46 +10,49 @@
 </head>
 <body>
     <div class="principal">
-        <div class="display">
-            <div class="input"><p>TU RESULTADO...</p></div>
-        </div>
-        <div class="cuerpo">
-            <button class="botones">(</button>
-            <button class="botones">)</button>
-            <button class="botones">x!</button>
-            <button class="botones"><p>x<sup>2</sup></p></button>
-            <button class="botones">√</button>
-            <button class="botones"><p>√</p><sup>n</sup></button>
-            <button class="botones">sin</button>
-            <button class="botones">cos</button>
-            <button class="botones">tg</button>
-            <button class="botones"><p>x<sup>3</sup></p></button>
-            <button class="botones">∛</button>
-            <button class="botones"><p>x<sup>n</sup></p></button>
-            <button class="botones">1</button>
-            <button class="botones">2</button>
-            <button class="botones">3</button>
-            <button class="botones">/</button>
-            <button class="botones">%</button>
-            <button class="botones">ln</button>
-            <button class="botones">4</button>
-            <button class="botones">5</button>
-            <button class="botones">6</button>
-            <button class="botones">*</button>
-            <button class="botones">log</button>
-            <button class="botones">e</button>
-            <button class="botones">7</button>
-            <button class="botones">8</button>
-            <button class="botones">9</button>
-            <button class="botones">-</button>
-            <button class="botones">AC</button>
-            <button class="botones2">=</button>
-            <button class="botones">.</button>
-            <button class="botones">0</button>
-            <button class="botones">PI</button>
-            <button class="botones">+</button>
-            <button class="botones">MR</button>
-        </div>
+        <!-- <div class="display">
+            <input type="textfield" name="ans" value="" autocomplete="off" readonly class="input">
+        </div> -->
+        <form name="calculator" class="cuerpo">
+            <div class="display">
+                <input type="textfield" name="ans" value="" autocomplete="off" readonly class="input">
+            </div>
+            <input type="button" value="(" class="botones" onclick="document.calculator.ans.value+='('">
+            <input type="button" value=")" class="botones" onclick="document.calculator.ans.value+=')'">
+            <input type="button" value="x!" class="botones">
+            <input type="button" value="x^2" class="botones">
+            <input type="button" value="√" class="botones">
+            <input type="button" value="√^n" class="botones">
+            <input type="button" value="sin" class="botones">
+            <input type="button" value="cos" class="botones">
+            <input type="button" value="tg" class="botones">
+            <input type="button" value="x^3" class="botones">
+            <input type="button" value="∛" class="botones">
+            <input type="button" value="x^n" class="botones">
+            <input type="button" value="1" class="botones" onclick="document.calculator.ans.value+='1'">
+            <input type="button" value="2" class="botones" onclick="document.calculator.ans.value+='2'">
+            <input type="button" value="3" class="botones" onclick="document.calculator.ans.value+='3'">
+            <input type="button" value="/" class="botones" onclick="document.calculator.ans.value+='/'">
+            <input type="button" value="%" class="botones">
+            <input type="button" value="ln" class="botones">
+            <input type="button" value="4" class="botones" onclick="document.calculator.ans.value+='4'">
+            <input type="button" value="5" class="botones" onclick="document.calculator.ans.value+='5'">
+            <input type="button" value="6" class="botones" onclick="document.calculator.ans.value+='6'">
+            <input type="button" value="*" class="botones" onclick="document.calculator.ans.value+='*'">
+            <input type="button" value="log" class="botones">
+            <input type="button" value="e" class="botones" onclick="document.calculator.ans.value+='3.14'">
+            <input type="button" value="7" class="botones" onclick="document.calculator.ans.value+='7'">
+            <input type="button" value="8" class="botones" onclick="document.calculator.ans.value+='8'">
+            <input type="button" value="9" class="botones" onclick="document.calculator.ans.value+='9'">
+            <input type="button" value="-" class="botones" onclick="document.calculator.ans.value+='-'">
+            <input type="button" value="AC" class="botones">
+            <input type="button" value="=" class="botones2" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            <input type="button" value="." class="botones" onclick="document.calculator.ans.value+='.'">
+            <input type="button" value="0" class="botones" onclick="document.calculator.ans.value+='0'">
+            <input type="button" value="Pi" class="botones" onclick="document.calculator.ans.value+='3.14'">
+            <input type="button" value="+" class="botones" onclick="document.calculator.ans.value+='+'">
+            <input type="reset" value="C" class="botones" >
+        </form>
 
 
     </div>

@@ -20,6 +20,9 @@ body{
     width: 637px;
     padding: 32px;
     border-radius: 10px 10px 0 0 ;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    margin-bottom: 30px;
     
 }
 
@@ -27,19 +30,24 @@ body{
     border: solid 1px black;
     padding: 20px;
     background-color: darkgray;
+    width: 555px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: blue;
 }
 
 .cuerpo{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
     justify-content: space-between;
     padding: 60px;
     background-image: linear-gradient(darkblue, gray);
     border-right: solid 10px black;
     border-left: solid 10px black;
     border-bottom: solid 10px black;
-    width: 637px;
+    border-top: solid 10px black;
+    width: 770px;
 }
 
 
@@ -71,7 +79,7 @@ body{
     font-size: large;
     padding: 7px;
     border-radius: 10px;
-    grid-row: 5/7;
+    grid-row: 6/8;
     grid-column: 6/7;
 }
 
