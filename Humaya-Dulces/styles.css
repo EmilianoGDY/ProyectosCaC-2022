@@ -1,6 +1,9 @@
 
 /* Seccion Principal */
-
+main{
+    max-width: 2500px;
+    min-width: 900px;
+}
 nav{
     margin-top: 80px;
     display: grid;
@@ -221,6 +224,8 @@ footer{
     background-color: rgb(11, 10, 10);
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    max-width: 2500px;
+    min-width: 900px;
 }
 
 .logo img{
