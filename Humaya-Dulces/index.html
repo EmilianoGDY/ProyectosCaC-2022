@@ -8,45 +8,18 @@
     <!--Estilos de Bootstrap y propios-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/371dab8d89.js" crossorigin="anonymous"></script>
 </head>
 <body class="img-fluid">
-    <header>
-        <!--Nav mobile-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <div class="d-flex align-items-center">
-                    <a class="navbar-brand" href="#">
-                        <img src="IMAGENES/Logo/HconDulce100x100.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
-                        <a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Locales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contacto</a>
-                    </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-    
     <main>
         <div class="principal">
+            <nav>
+                <a href="">Home</a>
+                <a href="">Productos</a>
+                <a href=""><img src="IMAGENES/Logo/LogoMenu60x48.png" alt=""></a>
+                <a href="">Locales</a>
+                <a href="">Contactos</a>
+            </nav>
             <h1>DULCES DEL ALMA</h1>
             <p id="textoPrincipal">Los productos HUMAYA son elaborados desde hace mas de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos mas importantes de la vida.</p>
             <button>CONOCENOS</button>
@@ -54,7 +27,7 @@
         <div class="productos">
             <p id="titproductos">PRODUCTOS</p>
         </div>
-        <div class="ddlTradicional">
+        <div class="prodizquierda">
             <img id="producto1" src="IMAGENES/Productos/Producto1.png" width="100%" height="100%" alt="">
             <div class="descProducto1">
                 <P class="titulos">DULCE DE LECHE TRADICIONAL</P>
@@ -63,11 +36,11 @@
                 <a id="masInfo1" href="">+ INFO</a>
             </div>    
         </div>
-        <div class="dulceChoconut">
+        <div class="prodderecha">
             
             <div class="descProducto2">
                 <P class="titulos">DULCE CHOCONUT</P>
-                <p class="descripcion">Elaboracion artesanal para el capricho dulce, combinacion de culce de leche, chocolate y pasta de avellanas.</p>
+                <p class="descripcion">Elaboracion artesanal para el capricho dulce, combinacion de dulce de leche, chocolate y pasta de avellanas.</p>
                 <p class="presentacion">Presentacion en frasco de vidrio 280gr.</p>
                 <a id="masInfo1" href="">+ INFO</a>
                 
@@ -75,12 +48,78 @@
             <img id="producto2" src="IMAGENES/Productos/Producto3.png" width="100%" height="100%" alt="">
         </div>
 
+        <div class="prodizquierda">
+            <img id="producto1" src="IMAGENES/Productos/Producto2.png" width="100%" height="100%" alt="">
+            <div class="descProducto1">
+                <P class="titulos">DULCE DE LECHE SIN AZUCAR</P>
+                <p class="descripcion">Elaboracion artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
+                <p class="presentacion">Presentacion en frasco de vidrio 580gr y 280gr.</p>
+                <a id="masInfo1" href="">+ INFO</a>
+            </div>    
+        </div>
+
+        <div class="maicena">
+            <div class="textos">
+                <p class="titulos">ALFAJORES DE MAICENA</p>
+                <p class="descripcion">Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura. Pudiendo elegir entre dulce de lechetradicional, light o coconut. </p>
+                <p class="presentacion">Presentacion en caja de 6 y 12 alfajores.</p>
+                <a id="masInfo1" href="">+ INFO</a>
+             </div>
+           
+            
+        </div>
+        
+        <div class="iconos">
+            <img src="IMAGENES/iconosjaja.png" alt="" width="100%" height="100%">
+        </div>
+
+        <div>
+            <img src="IMAGENES/form.png" alt="" width="100%" height="100%">
+        </div>
+
+
        
         
     </main>
 
     <footer>
-        
+        <div class="logo">
+            <img src="IMAGENES/Logo/LogoHumaya100x100.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="cabecera">MENÚ</li>
+                <li>Home</li>
+                <li>Productos</li>
+                <li>Locales</li>
+                <li>Contactos</li>
+            </ul>
+        </div>
+        <div class="navegacion">
+            <ul>
+                <li class="cabecera">NAVEGACIÓN</li>
+                <li>Preguntas Frecuentes</li>
+                <li>Distribuidores</li>
+                <li>Prensa</li>
+                <li>Resetas Exclusivas</li>
+            </ul>
+        </div>
+        <div class="redes">
+            <ul>
+                <li class="cabecera">REDES</li>
+                <li><i class="fa-brands fa-instagram fa-2x"></i></li>
+                <li><i class="fa-brands fa-square-facebook fa-2x"></i></li>
+                <li><i class="fa-brands fa-tiktok fa-2x"></i></li>
+            </ul>
+        </div>
+        <div class="ubicacion">
+            <ul>
+                <li class="cabecera">UBICACION</li>
+                <li>Monte de Oca 2356, CABA</li>
+                <li><img src="IMAGENES/mapa.png" alt="" width="80%" height="80%"></li>
+            </ul>
+        </div>
+
     </footer>
 
 <!--Scripts de Bootstrap-->
