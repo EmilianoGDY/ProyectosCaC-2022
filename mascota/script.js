@@ -23,7 +23,7 @@ alimento.addEventListener("click", alerta);
 
 function cambioTexto(){
     const texto = document.getElementById("textito");
-    texto.innerHTML = `Hola a todos, Me llamo ${perro.nombre}, soy un ${perro.especie} pincher y tengo ${perro.edad} años. Nací en Ca5tamarca pero vivo en Corrienets con mi familia. Me gusta mucho jugar a la pelota y comer pollo hervido`;
+    texto.innerHTML = `Hola a todos, Me llamo ${perro.nombre}, soy un ${perro.especie} pincher y tengo ${perro.edad} años. Nací en Catamarca pero vivo en Corrientes con mi familia. Me gusta mucho jugar a la pelota y comer pollo hervido`;
 };
 
 function alerta(){
