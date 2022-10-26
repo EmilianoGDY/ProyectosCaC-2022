@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #4c4c4c;
     box-shadow: 0 3px 13px 1px;
 }
 
@@ -25,6 +25,7 @@
 
 .nombre-testimonio{
     font-size: 1.3rem;
+    color: antiquewhite;
 }
 
 
@@ -32,9 +33,11 @@
     font-size: 1.3rem;
     margin-top: 15px;
     padding-bottom: 30px;
+    color: antiquewhite;
 }
 
 .texto-testimonio{
     font-size: 1.1rem;
     text-align: justify;
+    color: antiquewhite;
 }
